@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>远程设备推流结果</title>
+    <style>
+        #video-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        #video-stream {
+            width: 100%;
+        }
+
+        #text-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto; /* 修改为自动高度，根据内容调整 */
+            background-color: rgba(0, 0, 0, 0.5);
+            color: greenyellow;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <img id="video-stream" src="{{ url_for('video_feed') }}"/>
+        <div id="text-overlay">{{ text }}</div>
+    </div>
+</body>
+</html>
