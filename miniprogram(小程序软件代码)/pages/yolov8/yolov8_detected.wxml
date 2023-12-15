@@ -1,0 +1,25 @@
+<view class="mystyle">
+  <view class="image-wrapper" data-aspect-ratio="{{aspectRatio}}">
+    <image src="{{avatarUrl}}" mode="aspectFit" bindtap="imgClick"></image>
+  </view>
+  <view class="button-container">
+    <button class="mybutton" bindtap="chooseimg" type="primary" size="mini">选择图片</button>
+    <picker bindchange="showModelList" value="{{selectedModelIndex}}" range="{{modeltemp}}">
+      <button class="mybutton" size="mini" type="warn" plain>选择模型</button>
+    </picker>
+    <button class="mybutton" form-type="submit" bindtap="submitimg" size="mini" plain>开始检测</button>
+  </view>
+  <view wx:if="{{modelList[selectedModelIndex]}}" class="text-container">
+    <view class="model-item selected">当前权重:{{modelList[selectedModelIndex].name}}</view>
+  </view>
+  <view class="text-container">
+    <view wx:for="{{Resultdata}}" wx:key="index" class="result-container">
+      <text class="result-text">物品：{{item.name}}</text>
+      <text class="result-text result-num">数量：{{item.num}}</text>
+    </view>
+  </view>
+</view>
+<view class="button-container">
+  <button class="mybutton" bindtap="getFlvVideoStream" type="primary" size="mini">开始远程视频推流检测</button>
+</view>
+

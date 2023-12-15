@@ -1,0 +1,44 @@
+.timu2 {
+  font-size: 45rpx;
+  padding-bottom: 10px;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.max-logo {
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #143642;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #143642;
+}
+
+body {
+  margin: 0;
+}
+
+.biaoti {
+  padding-top: 10px;
+  border: 2px;
+}
+
+ .state {
+   font-size: 1.5rem;
+   color:#8c8c8c;
+   font-weight: bold;
+ }
+ .home {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}

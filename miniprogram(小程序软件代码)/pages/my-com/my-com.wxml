@@ -1,0 +1,31 @@
+<!--pages/my-com/my-com.wxml-->
+<div class="content">
+    <div>
+      <p>
+        <view class="button-group">
+          <button class="button button_small {{d1class === true ? '' : 'button_low'}}" bindtap="Ond1">D1</button>
+          <button class="button button_small {{d2class === true ? '' : 'button_low'}}">D2</button>
+          <button class="button button_small {{d3class === true ? '' : 'button_low'}}">D3</button>
+          <button class="button button_small {{d4class === true ? '' : 'button_low'}}">RS</button>
+        </view>
+        <view class="img-group">
+          <div class="img-wrapper"><image src="{{d1src}}"></image></div>
+          <div class="img-wrapper"><image src="{{d2src}}"></image></div>
+          <div class="img-wrapper"><image src="{{d3src}}"></image></div>
+          <div class="img-wrapper"><image src="{{d4src}}"></image></div>
+        </view>
+        <view class="button-group">
+          <button class="button button_small {{d5class === true ? '' : 'button_low'}}">D5</button>
+          <button class="button button_small {{d6class === true ? '' : 'button_low'}}">D6</button>
+          <button class="button button_small {{d7class === true ? '' : 'button_low'}}">D7</button>
+          <button class="button button_small {{d8class === true ? '' : 'button_low'}}">D8</button>
+        </view>
+        <view class="img-group">
+          <div class="img-wrapper"><image src="{{d5src}}"></image></div>
+          <div class="img-wrapper"><image src="{{d6src}}"></image></div>
+          <div class="img-wrapper"><image src="{{d7src}}"></image></div>
+          <div class="img-wrapper"><image src="{{d8src}}"></image></div>
+        </view>
+      </p>
+    </div>
+  </div>

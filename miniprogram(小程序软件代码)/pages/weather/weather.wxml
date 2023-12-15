@@ -1,0 +1,30 @@
+<!--pages/mq/mqttClient.wxml-->
+<view class="home">
+  <!--表头-->
+  <view class="timu1">
+    <text class="timu2">Weather</text>
+    <!--图片-->
+    <view class="biaoti">
+      <view class="max-logo">
+        <view class="time"> {{gaode.liveData.reporttime}}</view>          
+          <view class="content">
+            <view class="we-left">
+              <image class="weather-logo" src="../image/温度.png"></image>
+              <view class="weather-logo-text">{{gaode.temperature.data}}℃</view>
+            </view>
+            <view class="we-right">
+              <view class="we-info"> 所在省份：{{gaode.liveData.province}}</view>
+              <view class="we-info"> 所在城市：{{gaode.city.data}}</view>
+              <view class="we-info"> 城市编码：{{gaode.liveData.adcode}}</view>
+              <view class="we-info"> 风向：{{gaode.winddirection.data}}</view>
+              <view class="we-info"> 风 力：{{gaode.windpower.data}}</view> 
+              <view class="we-info"> 空气湿度：{{gaode.humidity.data}}</view>
+              <view class="we-info"> 天气现象：{{gaode.weather.data}}</view>
+            </view>
+          </view>
+        </view>
+      <image class="max-logo" src="../image/pexels-terry-magallanes-2635038.jpg"></image>
+    </view>
+  </view>
+</view>
+ 

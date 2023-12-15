@@ -1,0 +1,66 @@
+<!--pages/mq/mqttClient.wxml-->
+<view class="home">
+  <!--表头-->
+  <view class="timu1">
+    <text class="timu2">Smart Home</text>
+    <!--图片-->
+    <view class="biaoti">
+      <image class="max-logo" src="../image/home-head.jpg"></image>
+    </view>
+  </view>
+
+  <!--传感器-->
+  <view class="data-wrapper">
+    <view class="flower-info-block">
+      <view class="up">
+        <image class="min-logo" src="../image/temp.png"></image>
+        <view class="num-text">
+        <text class="text">{{mqValue.temperature}}</text>
+      </view>
+      </view>
+      <view class="down">
+        <text>室内温度（°C）</text>
+      </view>
+    </view>
+
+    <view class="flower-info-block">
+      <view class="up">
+        <image class="min-logo" src="../image/hump.png"></image>
+        <view class="num-text">
+          <text class="text">{{mqValue.humidity}}</text>
+        </view>
+      </view>
+      <view class="down">
+        <text>室内湿度（%）</text>
+      </view>
+    </view>
+  </view>
+
+  <!--开关-->
+  <view class="data-wrapper">
+
+    <view class="flower-info-block">
+      <view class="up">
+        <image class="min-logo" src="../image/hump.png"></image>
+        <view class="num-text">
+          <text class="text">{{mqValue.soilHum}}</text>
+        </view>
+      </view>
+      <view class="down">
+        <text>土壤湿度（%）</text>
+      </view>
+    </view>
+    <!--浇水-->
+    <view class="flower-info-block">
+      <view class="up">
+        <image class="min-logo" src="../image/jiaoshui.png"></image>
+        <switch style="padding-left:20px; "bindchange="onWaterChange" :checked="water" color="#3d7ef9">
+        </switch>
+      </view>
+      <view class="down">
+        <text>Watering</text>
+      </view>
+    </view>
+  </view>
+</view>
+ 

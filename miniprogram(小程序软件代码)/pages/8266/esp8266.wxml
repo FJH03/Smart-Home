@@ -1,0 +1,7 @@
+<view class="home">
+<view class="biaoti">
+  <image class="max-logo" src="../image/biaoti.png"></image>
+</view>
+<my-com id = 'my-com'></my-com>
+</view>
+

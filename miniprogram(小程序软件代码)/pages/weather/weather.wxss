@@ -1,0 +1,148 @@
+/* pages/mq/mqttClient.wxss */
+.page {
+  font-size: 26rpx;
+}
+.home {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.timu1 {
+  font-family: Lucida ;
+}
+.timu2 {
+  font-size: 45rpx;
+  padding-bottom: 10px;
+}
+
+.biaoti {
+  padding-top: 5px;
+  border: 2px;
+  color: rgb(78, 120, 235);
+}
+
+.max-logo {
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  background-color:rgb(78, 120, 235);
+  font-size: 30rpx;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(230, 230, 230);
+}
+
+
+.data-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flower-info-block {
+  background-color: rgb(230, 230, 230);
+  display:flex;
+  flex-direction: column;
+  height: 80px;
+  width: 45%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.min-logo {
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.num-text {
+  padding-left: 35px;
+  padding-top: 12px;
+  font-size: 40rpx;
+}
+
+
+.data-title {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.up {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.down {
+  margin:0 auto;
+  font-size: 30rpx;
+}
+.low {
+  padding-top: 8px;
+  margin-top: 20px;
+  padding-left: 10px;
+  height: 60px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.demo{
+  height: 60px;
+  width: 60px;
+  background-color: brown;
+}
+.time{
+  color: rgb(78, 120, 235);
+  font-size: 13px;
+  position: relative;
+  left: 12px;
+  top: 13px;
+}
+.we-left{
+  position: relative;
+  top: 23px;
+}
+
+.weather-logo{
+  height: 80px;
+  width: 80px;
+  /* padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px; */
+}
+.weather-logo-text{
+  padding-left: 6px;
+  font-size: 28px;
+}
+.humidity-logo{
+  height: 25px;
+  width: 25px;
+  padding-top: 15px;
+  /* padding-right: 5px;
+  padding-bottom: 5px; */
+  padding-left: 20px;
+}
+.we-info{
+  padding-left: 50px;
+}
+.we-right{
+  position: relative;
+  bottom: 75px;
+  left: -55px;
+  float: right;
+}
+.content{
+  position: relative;
+  padding-left: 20px;
+}
